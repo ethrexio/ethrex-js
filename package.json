@@ -1,0 +1,44 @@
+{
+  "name": "ethrex",
+  "version": "1.0.0",
+  "description": "The Ethereum Explorer",
+  "main": "core.js",
+  "bin": {
+    "ethrex": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethrexio/ethrex-js.git"
+  },
+  "keywords": [
+    "ethrex",
+    "ethereum",
+    "explorer",
+    "blockchain",
+    "cryptocurrency"
+  ],
+  "author": "Ethrex",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ethrexio/ethrex-js/issues"
+  },
+  "homepage": "https://github.com/ethrexio/ethrex-js#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "json-merge-patch": "^0.2.3",
+    "object-assign": "^4.1.0",
+    "pako": "^1.0.3",
+    "request": "^2.74.0",
+    "websocket": "^1.0.23"
+  },
+  "devDependencies": {
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "webpack": "^1.13.2"
+  }
+}
